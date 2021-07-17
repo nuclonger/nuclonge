@@ -1,0 +1,35 @@
+<!-- DOCTYPE指的是：文档类型定义，定义了网页的根元素是html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--设置编码，防止网页上的汉字乱码（下面）-->
+		<meta charset="UTF-8">
+		<title>中北大学毕业设计管理系统-用户注册</title>
+	</head>
+	<body>
+		<form action="receive.html">
+			用户名<input type="text" placeholder="请输入用户名">
+			<br>
+			密码<input type="password"><br>
+			性别<input type="radio" name="gender">男
+			<input type="radio" name="gender">女
+			<br><!--表示换行 -->
+			籍贯<select>
+				<option>山西大同</option><!--表示换行 -->
+				<option>山西运城</option>
+				<option>山西太原</option>
+			</select>
+			<br>
+		    爱好<input type="checkbox">旅游
+		      <input type="checkbox">踢球
+		      <input type="checkbox">游泳
+		      <br>
+		      <!--rows cols表示你指定的行列大小 -->自我介绍<textarea rows="5" cols="50">
+		      	文本域：龙林旭，软件工程，中北大学
+		      </textarea><br>
+		      上传简历<input type="file"><!--上传文件的意思 --><br>
+		      <input type="submit" value="注册"><!-- 表示一个按钮 -->
+		      <input type="reset" value="清空重填"><!-- 全部清空 -->
+		</form>
+	</body>
+</html>

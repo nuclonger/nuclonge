@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表格样式</title>
+	    <style>
+	    	table{
+	    		width:500px;
+	    		height:80px;
+	    		text-align:center;/*让表格文字全居中*/
+	    	}
+	    	/*给table，tr，td同时施加样式*/
+	    	
+	    	table,tr,td{
+	    		/*边框宽度1p、实线、黑色*/
+	    		border:1px solid red;
+	    	}
+	    	table {
+	    		/*边框折叠，不要有空心*/
+	    		border-collapse: collapse;
+	    	}
+	    	a {
+	    		text-decoration: none;
+	    	}
+	    	a:hover{
+	    		color:red;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<table align="center">
+			<tr>
+				<td>学号</td>
+				<td>姓名</td>
+				<td>籍贯</td>
+				<td>操作</td>
+			</tr>
+			<tr>
+				<td>040846</td>
+				<td>龙林旭</td>
+				<td>山西</td>
+				<td>
+					<a href="#">修改</a>
+				    <a href="#">删除</a>
+				</td>
+			</tr>
+			<tr>
+				<td>040846</td>
+				<td>龙林旭</td>
+				<td>山西</td>
+				<td>修改 删除</td>
+			</tr>
+			<tr>
+				<td>040846</td>
+				<td>龙林旭</td>
+				<td>山西</td>
+				<td>修改 删除</td>
+			</tr>
+			<tr>
+				<td>040846</td>
+				<td>龙林旭</td>
+				<td>山西</td>
+				<td>修改 删除</td>
+			</tr>
+		</table>
+	</body>
+</html>
